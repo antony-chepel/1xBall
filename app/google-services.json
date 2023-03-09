@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "818306759965",
+    "project_id": "atlantic-volcano",
+    "storage_bucket": "atlantic-volcano.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818306759965:android:c1cc95601bfa7e2649b5f4",
+        "android_client_info": {
+          "package_name": "com.kooapps.stackybirda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818306759965-jj09rd4b6jmfsom4ldtnrkv1e1315r0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwLj2MIuYAO-fvORTiI1A34iWzWsCRGTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818306759965-jj09rd4b6jmfsom4ldtnrkv1e1315r0j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

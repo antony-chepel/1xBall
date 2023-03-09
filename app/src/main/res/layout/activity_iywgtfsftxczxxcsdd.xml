@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_x_b"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score :"
+        android:fontFamily="@font/x_b_it"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap to start"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/x_bld"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/x_ball_player"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/orange"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/x_ball_smpl"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/black"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/x_ball_bask"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/pink"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/x_ball_supre"
+            tools:ignore="ContentDescription" />
+    </FrameLayout>
+</LinearLayout>
